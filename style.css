@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.main_content {
+    background: rgb(240, 242, 245);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 90px;
+    min-height: 640px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 58%;
+    padding: 90px 0 0 0;
+}
+
+#imgLogo {
+    margin-right: 50px;
+    height: 102px;
+}
+
+.content__title h3 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    padding-left: 30px;
+}
+
+.contentLogin {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 42%;
+}
+
+.contentLogin__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.contentLogin__input {
+    padding: 6px 0;
+    background-color: white;
+}
+
+.contentLogin__input input {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    background-color: white;
+    border: 1px solid #dddfe2;
+    border-radius: 6px; 
+}
+
+.buttonLog {
+    margin: 10px 0;
+    background-color: white;
+}
+
+.buttonLog button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    width: 364px;
+    color: white;
+    font-weight: bold;;
+}
+
+.restoreLog {
+    margin-top: 6px;
+}
+
+.restoreLog a {
+    color: #1877f2;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: white;
+}
+
+.createLog {
+    margin-top: 25px;
+}
+
+.createLog button {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+}
+
+.contentLogin__info {
+    margin: 25px 0 0 0;
+}
+
+.contentLogin__info p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.contentLogin__info a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+footer {
+    display: flex;
+    background: white;
+    width: 100%;
+    /* height: 600px; */
+    margin-top: 20px;
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer__language {
+    display: flex;
+    align-self: flex-start;
+}
+
+#footer_ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.footer__language li {
+    padding: 10px 10px 0 10px;
+}
+
+.footer__language a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.footer__company {
+    margin: 25px 0 25px 10px;
+}
+
+.footer__company p {
+    font-size: 14px;
+    color: #737373;
+}
