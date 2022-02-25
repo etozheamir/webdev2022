@@ -1,0 +1,94 @@
+body {
+    background-color: #989fff;
+    color: #505050;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+.todoitem.editing .textfield {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    background: 0 0;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    position: relative;
+    height: 36px;
+    margin: 0;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    outline: none;
+    background-color: rgb(204, 204, 204);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+#form {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+#form input {
+    width: 100%;
+}
+
+#form button {
+    margin-left: 10px;
+}
+
+input {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #505050;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+
+.todoitem {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 10px;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.todoitem.completed * {
+    color: lightgray;
+}
+
+.todoitem.completed .todoTitle {
+    text-decoration: line-through;
+}
+
+
+main {
+    width: 600px;
+    margin: 70px auto;
+}
